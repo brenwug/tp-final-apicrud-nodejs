@@ -6,10 +6,12 @@ CREATE TABLE `dblibros`.`libros` (
   `titulo` VARCHAR(140) NOT NULL,
   `genero` VARCHAR(50) NOT NULL,
   `editorial` VARCHAR(50) NOT NULL,
+  `stock_disponible` boolean NOT NULL,
   `createdAt` DATETIME NULL,
   `updatedAt` DATETIME NULL,
+  
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`) VALUES ('Brian Weiss', 'Muchas vidas, muchos maestros', 'autoayuda', 'zeta');
+INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`) VALUES ('Brian Weiss', 'Muchas vidas, muchos maestros', 'autoayuda', 'zeta', 'true');
