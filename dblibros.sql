@@ -14,5 +14,5 @@ CREATE TABLE `dblibros`.`libros` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`, `stock_disponible`) VALUES ('Brian Weiss', 'Muchas vidas, muchos maestros', 'autoayuda', 'zeta', 'true');
-INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`, `stock_disponible`) VALUES ('Louise May Alcott', 'Mujercitas', 'clasicos', 'penguin', 'false');
+INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`, `stock_disponible`) VALUES ('Brian Weiss', 'Muchas vidas, muchos maestros', 'autoayuda', 'zeta', true);
+INSERT INTO `dblibros`.`libros` (`autor`, `titulo`, `genero`, `editorial`, `stock_disponible`) VALUES ('Louise May Alcott', 'Mujercitas', 'clasicos', 'penguin', false);
